@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=+prompt("nhap vao a");
+        let b=+prompt("nhap vao b");
+        let c=+prompt("nhap vao c");
+        //tam giac
+    if(a+b>c && a+c>b && b+c>a){
+        alert("abc là 3 cạnh của tam giác")
+    }else{
+        alert (" abc khong la 3 canh cua tam giac")
+    }
+    //tam giac can
+    if(a==b|| a==c || b==c){
+        alert ("abc la 3 canh tam giac can")
+    }else{
+        alert(" khong phai la 3 canh tam giac can")
+    }
+    //tam giac vuong
+    if(a*a+b*b==c*c || b*b+c*c==a*a|| a*a+c*c==b*b){
+        alert("abc la 3 canh tam giac vuong")
+    }else{
+        alert("khong la canh tam giac vuong")
+    }
+    //tam giac deu
+    if(a==b&& b==c){
+        alert("abc la 3 canh tam giac deu")
+    }else{
+        alert("khong la canh cua tam giac deu")
+    }
+
+    </script>
+</body>
+</html>
